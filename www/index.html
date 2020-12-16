@@ -7,27 +7,35 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-   
-    </script>
+    <script src="js/status.js"></script>
+    
 </head>
 <body>
   <header>
-  <p><h1 class="title">ゲームの記録一覧</h1></p>
-	<p />
-    最高金額
-    <div class="box2">
-    <p>ここに文章</p>
-  </div>
-    総金額
-  <div class="box2">
-    <p>ここに文章</p>
-  </div>
-    総歩数
-  <div class="box2">
-    <p>ここに文章</p>
-  </div>
-  <button class="back-btn" onclick="history.back()">戻る
+
+  <h1 class="title">ゲームの記録一覧</h1>
   </header>
+  
+  <!--ステータス-->
+
+  <div class="oya">
+    <div class="ko"></div>
+    <div class="ko"></div>
+    <div class="ko"></div>
+  </div>
+ 
+  <div class="rank-list" id="rank-list">
+<div class="rank1" id="rank2"><p>位</p></div>
+
+
+
+
+<div class="rank2" id="rank3">
+<div class="rank2-1" id="rank2-1"></div>
+<div class="rank2-2" id="rank2-2"></div>
+</div>
+  <button class="back-btn" onclick="history.back()">もどる
+  </button>
+  
 </body>
 </html>
